@@ -18,13 +18,13 @@ int main(int argc, const char * argv[]) {
     // hence +alloc-init.
     // If you don't need an argument for initialisation, 'new' is fine.
     
-    XYZPerson *newPerson = [XYZPerson new];
+//    XYZPerson *newPerson = [XYZPerson new];
     
     
-    XYZPerson *newShoutingPerson = [XYZShoutingPerson person];
+    XYZShoutingPerson *shoutingPerson = [XYZShoutingPerson person];
     
-    [newPerson sayGoodbye];
-    [newShoutingPerson sayHello];
+//    [newPerson sayGoodbye];
+    [shoutingPerson sayHello];
     
     return 0;
 }

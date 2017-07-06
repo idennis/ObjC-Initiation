@@ -29,7 +29,7 @@
     NSLog(@"%@", greeting);
 }
 
-+ (XYZPerson *)person{
++ (instancetype)person{
     return [[self alloc]init];
 };
 @end
