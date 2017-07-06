@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BCB3729F1F0DE04B0019B4C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB3729E1F0DE04B0019B4C4 /* main.m */; };
 		BCB372A71F0DFA130019B4C4 /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB372A61F0DFA130019B4C4 /* XYZPerson.m */; };
+		BCB372AA1F0E1F600019B4C4 /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB372A91F0E1F600019B4C4 /* XYZShoutingPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		BCB3729E1F0DE04B0019B4C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCB372A51F0DE9330019B4C4 /* XYZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
 		BCB372A61F0DFA130019B4C4 /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		BCB372A81F0E1F600019B4C4 /* XYZShoutingPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
+		BCB372A91F0E1F600019B4C4 /* XYZShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				BCB3729E1F0DE04B0019B4C4 /* main.m */,
 				BCB372A61F0DFA130019B4C4 /* XYZPerson.m */,
 				BCB372A51F0DE9330019B4C4 /* XYZPerson.h */,
+				BCB372A81F0E1F600019B4C4 /* XYZShoutingPerson.h */,
+				BCB372A91F0E1F600019B4C4 /* XYZShoutingPerson.m */,
 			);
 			path = "Hello World";
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCB372A71F0DFA130019B4C4 /* XYZPerson.m in Sources */,
+				BCB372AA1F0E1F600019B4C4 /* XYZShoutingPerson.m in Sources */,
 				BCB3729F1F0DE04B0019B4C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

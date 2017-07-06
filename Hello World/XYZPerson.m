@@ -13,23 +13,23 @@
 @implementation XYZPerson
 
 - (void)sayHello {
-    [self saySomething:@"Hello world!"];
+    [self saySomething:@"Hello!"];
 }
+
+- (void)sayGoodbye {
+    [self saySomething:@"Goodbye!"];
+}
+
+- (void)sayGday {
+    [self saySomething:@"G'day!"];
+}
+
 
 - (void)saySomething:(NSString *)greeting{
     NSLog(@"%@", greeting);
 }
 
-+ (void)person{};
-@end
-
-
-
-@implementation XYZShoutingPerson
-
-- (void)saySomething:(NSString *)greeting{
-    NSString *uppercaseGreeting = [greeting uppercaseString];
-    NSLog(@"%@", uppercaseGreeting);
-}
-
++ (XYZPerson *)person{
+    return [[self alloc]init];
+};
 @end

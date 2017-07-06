@@ -16,11 +16,8 @@
 @property int *dayOfBirth;
 
 - (void)sayHello;
+- (void)sayGoodbye;
 - (void)saySomething:(NSString*)greeting;
-+ (void)person;
++ (XYZPerson *)person;
 
-@end
-
-
-@interface XYZShoutingPerson: XYZPerson
 @end
