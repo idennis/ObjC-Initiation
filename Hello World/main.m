@@ -18,13 +18,29 @@ int main(int argc, const char * argv[]) {
     // hence +alloc-init.
     // If you don't need an argument for initialisation, 'new' is fine.
     
-//    XYZPerson *newPerson = [XYZPerson new];
-    
-    
+    XYZPerson *newPerson = [XYZPerson new];
+    XYZPerson *newXYZPerson;
     XYZShoutingPerson *shoutingPerson = [XYZShoutingPerson person];
     
-//    [newPerson sayGoodbye];
+    [newPerson sayGoodbye];
     [shoutingPerson sayHello];
+    
+    
+    // You can set values into class/interface properties by using set<VarName>
+    // it won't work if you add an (readonly) attribute in the declaration though.
+    [newPerson setFirstName:@"Johnny"];
+    
+    // Dot syntax works too! 😊
+    newPerson.firstName = @"Mark";
+    
+    
+    if (newPerson.firstName != nil){
+        NSLog(@"%@", newPerson.firstName);
+    }
+    
+    if (newXYZPerson == nil){
+        NSLog(@"the new pointer is nil!");
+    }
     
     return 0;
 }

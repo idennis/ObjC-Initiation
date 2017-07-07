@@ -8,7 +8,7 @@
 
 @interface XYZPerson: NSObject
 
-@property (readonly) NSString *firstName;
+@property NSString *firstName;
 @property (readonly) NSString *lastName;
 
 @property int *yearOfBirth;
